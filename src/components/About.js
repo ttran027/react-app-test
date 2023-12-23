@@ -6,7 +6,6 @@ export default function About(){
     return(
         <div class="d-flex flex-column align-items-center">
             <h3>About Page</h3>
-           
             <ul class="nav nav-pills">
             {
                 AboutTabs.map(tab => (
